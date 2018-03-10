@@ -1,0 +1,87 @@
+.logo{
+	min-width: 1600px;
+	height: 686px;
+	text-align: center;
+	
+}
+.logo1{
+	background-repeat: no-repeat;
+	width:1600px;
+	height: 548px;
+	background-image: url(./10.png);
+	padding-top: 30px;
+}
+.line-1{
+	border-style:solid;
+	height: 2px;
+	width: 100%;
+	border-right-color:#192c3b;
+	border-left-color:#192c3b;
+	border-top-color: #c8cccf;
+	border-bottom-color: #c8cccf;
+}
+.wenzi{
+	color: #0bc7b4;
+	width: 500px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.wenzi1{
+	margin-top: 30px;
+	color: #a8aeb2;
+	width:600px;
+}
+.form{
+	margin-top: 30px;
+	width: 560px;
+	height: 60px;
+}
+.form input{
+	width: 170px;
+	height:30px;
+	background-color: #d2cece;
+	border:none;
+	color: #a3a6ae;
+	margin-right: 20px;
+	float: left;
+}
+.annu{
+	width: 100px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	background-color: #0bc7b4;
+	border-radius: 5%;
+	box-shadow: 1px 1px #029381;
+	margin-left:50px;
+}
+.tupian{
+	margin-top: 50px;
+	width: 800px;
+	height: 200px;
+}
+.tupian li{
+	float: left;
+}
+.tupian-public{
+	width: 200px;
+	height: 80px;
+}
+.tupian-public0{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.tupian-public img{
+}
+.tupian-public-all{
+	float: left;
+	width: 100px;
+	margin-top: 10px;
+}
+.tupian-public1{
+	font-size: 30px;
+}
+.tupian-public2{
+	font-size: 5px;
+}

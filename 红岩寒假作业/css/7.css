@@ -1,0 +1,38 @@
+.green{
+	background-image: url(./15.png);
+	width: 1600px;
+	height: 149px;
+	position: relative;
+	z-index: -1;
+	top: -35px;
+}
+.green-all{
+	width: 1600px;
+	height: 80px;
+	padding-top: 38px;
+}
+.green-all-1{
+	width: 700px;
+	height: 40px;
+}
+.green1{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.green2{
+	width: 150px;
+	color: white;
+	float: left;
+	text-align: left;
+}
+.green3{
+	width: 500px;
+	float: left;
+	text-align: left;
+}
+.green4{
+	width: 600px;
+	color: white;
+	height: 40px;
+}

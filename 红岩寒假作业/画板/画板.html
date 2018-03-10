@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="huaban" width="1000px" height="1000px"></canvas>
+	<script type="text/javascript">
+		var a=document.getElementById('huaban')
+		b=a.getContext('2d')
+		a.onmousedown=function(e){
+			 var x = e.clientX - a.offsetLeft;        
+        var y = e.clientY - a.offsetTop; 
+        b.beginPath()
+        b.arc(x,y,5,0,2*Math.PI)
+        b.fillStyle='red';
+        b.fill();
+        b.stroke;
+        a.onmousemove=function(e){
+        	 var x = e.clientX - a.offsetLeft;        
+        var y = e.clientY - a.offsetTop; 
+        b.beginPath()
+        b.arc(x,y,5,0,2*Math.PI)
+        b.fillStyle='red';
+        b.fill();
+        b.stroke;
+        }
+		}
+		a.onmouseup=function(){
+			a.onmousemove=null
+		}
+		
+
+	</script>
+</body>
+</html>

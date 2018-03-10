@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background-color:  #192c3b;
+	list-style: none;
+}
+.top{
+/* background:url(./1.jpg);有毒吧，写在css里面就不行 */
+  height: 80px;
+  min-width: 1600px;
+  width: 100%;
+  background:url(./1.jpg)
+}
+.topp{
+	height: 80px;
+	width:1000px;
+}
+.top1{
+	height: 100px;
+	width: 66px;
+  /*   position: relative; */
+  float: left;
+}
+.top11{
+	position: absolute;
+	z-index: 2;
+	margin-left: 15px;
+	margin-top: -67px; 
+}
+.top2{
+	width: 75px;
+	padding-left: 30px;
+	float: left;
+	margin-top: 20px;
+}
+.top3{
+	float: left;
+	padding-left: 100px;
+}
+.top31{
+	list-style: none;
+}
+.top31 li{
+	float: left;
+	padding-left: 30px;
+	line-height: 80px;
+}
+.top311{
+	color: blue;
+}
+.top4
+{
+	float: left;
+	position: relative;
+	padding-left: 100px;
+}
+.top42{
+	position: absolute;
+    margin-left: 26px;
+    margin-top: -47px;
+}

@@ -1,0 +1,50 @@
+.contain{
+	background-color: #192c3b;
+	min-width: 1600px;
+	height: 400px;
+}
+.contain-center{
+	cursor: pointer;
+	width: 800px;
+	height: 400px;
+	position: relative;
+	top: 50px;
+}
+.left{
+	height: 100px;
+	width: 50px;
+	border-radius: 100px 0px 0px 100px;
+	background-color: white;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 97px;
+}
+.center{
+	width: 700px;
+	height: 300px;
+	background-color: white;
+	float: left;
+
+}
+.right{
+	height: 100px;
+	width: 50px;
+	border-radius: 0px 100px 100px 0px;
+	background-color: white;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 97px;
+}
+.contain-left{
+	width: 50px;
+	height: 300px;
+	float: left;
+}
+.contain-right{
+	width: 50px;
+	height: 300px;
+	float: left;
+}
+.carousel{
+	position: relative;
+}

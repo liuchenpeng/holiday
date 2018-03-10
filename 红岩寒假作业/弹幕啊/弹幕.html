@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body>
+<div class="z">
+	<div class="zz">
+	<video src="02.mp4" controls height="100%" width="100%"></video>
+</div>
+<div class="zzz">
+	<input type="text" placeholder="弹幕" class="zzzz">
+<div class="sen">发送</div>
+</div>
+</div>
+<div class="yanse">
+	<div style="background-color: yellow"></div>
+	<div style="background-color: red"></div>
+	<div style="background-color: blue"></div>
+	<div style="background-color: pink"></div>
+	<div style="background-color: black"></div>
+</div>
+<div class="squre">弹幕颜色选择</div>
+<script type="text/javascript">
+	var zz=document.querySelector('.zz');
+	var zzzz=document.querySelector('.zzzz');
+	var sen=document.querySelector('.sen');
+	var yanse=document.querySelector('.yanse')
+	var changes=yanse.getElementsByTagName('div')
+	var g
+	for(i=0;i<changes.length;i++)
+	{
+		changes[i].onclick=function(){
+			zhuanhuan(this)
+		}
+	}
+	var xinxi;
+	var i;
+	sen.onclick=function(){
+		if (zzzz.value!='') {
+			send()
+		}
+		else{
+			alert('值不能为空')
+		}
+	}
+	function zhuanhuan(a){
+		g=a.style.backgroundColor
+	}
+	zzzz.onkeydown=function(a){
+		if (a.keyCode===13) {
+			if (zzzz.value!='') {
+				send()
+			}
+			else{
+				alert('值不能为空')
+			}
+			
+		}
+	}
+	function send(xinxi){
+		xinxi=zzzz.value;
+		creat(xinxi)
+		zzzz.value=''
+	}
+	function creat(a){
+		var span=document.createElement('span')
+		span.innerHTML=a;
+		zz.appendChild(span);
+		span.style.left = zz.offsetWidth+'px'
+		span.style.top=Math.random()*zz.offsetHeight*0.7+'px'
+		span.style.color=g
+		yundong(span)
+		
+		}
+	function yundong(a)
+	{
+		var time=setInterval(function(){
+			a.style.left=a.offsetLeft-1+'px'
+			if(a.offsetLeft+a.offsetWidth<=0)
+			{
+				clearInterval(time);
+				zz.removeChild(a);
+			}
+		},30)
+	}
+</script>
+</body>
+</html>

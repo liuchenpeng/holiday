@@ -1,0 +1,29 @@
+.contain1{
+	width: 1600px;
+	height: 470px;
+	background-repeat: no-repeat;
+	background-image:  url(./6.png);
+}
+.center-two{
+	width: 600px;
+	height: 200px;
+	padding-top: 100px;
+}
+.all-round{
+	width: 200px;
+	height: 30px;
+}
+.round{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float: left;
+	box-shadow: 0 0 10px black;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.text{
+	width: 600px;
+	text-align: center;
+	padding-top: 50px;
+}
